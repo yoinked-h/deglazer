@@ -44,16 +44,19 @@ training effectiveness decreases after deglazing since glaze actually helps trai
 
 ## faq
 
-##### what does glaze *actually* do?
+#### what does glaze *actually* do?
 basically nothing; it adds adversarial noise which supposedly makes the model think a dog is a cat
+
 the issue is SD doesnt really care about that since we pass it through a VAE, but it does confuse the CLIP (see: nightshade)
+
 vaeloop will fix the 'glaze' and make it CLIP taggable (even though most people dont use CLIP)
 
-##### why did you make this
+#### why did you make this
 glaze n co think that they've made a miracle cure for ai training on other art; they have not
 
-##### is it possible to actually make images untrainable
+#### is it possible to actually make images untrainable
 not without making it terrible to watch/private
+
 pick 2 of 3 things:
 - untrainable
 - good to watch
