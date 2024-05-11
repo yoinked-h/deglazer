@@ -1,3 +1,4 @@
 diffusers
 torch
 opencv-contrib-python
+typer
