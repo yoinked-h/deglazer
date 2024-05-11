@@ -1,0 +1,3 @@
+diffusers
+torch
+opencv-contrib-python
