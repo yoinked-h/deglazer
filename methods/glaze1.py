@@ -10,5 +10,5 @@ def clean(image: np.ndarray, filter):
     for _ in range(64):
         y = cv2.bilateralFilter(y, 5, 8, 8)
     for _ in range(4):
-        y = guidedFilter(y, image, 4, 16)
+        y = guidedFilter(image, y, 4, 16)
     return y
