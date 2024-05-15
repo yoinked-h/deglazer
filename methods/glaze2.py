@@ -30,6 +30,6 @@ def clean(image: np.ndarray):
     image = image[0]
     image = image.permute(1, 2, 0).detach().cpu().numpy()
     y = image.copy()
-    for _ in range(8):
-        baseimg = guidedFilter(baseimg, y, 4, 16)
+    for _ in range(4):
+        baseimg = guidedFilter(y, baseimg, 4, 16)
     return baseimg
