@@ -38,6 +38,8 @@ python run.py clean_folder path/to/images --newfolder path/to/cleaned/images
 
 ## effectiveness
 
+the following claims are **from my testing** and not backed by any papers, take with a grain of salt (or just ignore idk)
+
 considering that glaze/nightshade doesnt work at all, this is extremely effective (100% captioning accuracy after deglazing)
 
 training effectiveness decreases after deglazing since glaze actually helps training (the glaze/shade acts as noise offset)
