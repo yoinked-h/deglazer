@@ -27,12 +27,14 @@ python run.py clean_folder path/to/images --newfolder path/to/cleaned/images
 - glaze1
 ```diff
 ~ classical glaze remover (has it even worked at all?)
+- could remove softer details
 ```
 - glaze2 [broken since i forgot how to make vae code work lol]
 ```diff
 + both vaeloop and glaze1 combined
 ~ passes image through VAE, which removes imperfections (e.g. glaze)
 ~ resizes images to a mult of 8
+- could remove softer details
 - needs a gpu
 ```
 
